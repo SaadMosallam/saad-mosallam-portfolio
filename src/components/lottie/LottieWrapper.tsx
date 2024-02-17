@@ -27,7 +27,7 @@ export default function LottieWrapper({
         anim.destroy();
       }
     };
-  }, []);
+  }, [animationData]);
 
   return <div className={classes} ref={container} />;
 }
